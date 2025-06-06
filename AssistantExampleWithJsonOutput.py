@@ -8,7 +8,7 @@ jira_spec = {
         'Functional': 'Functional information of the story.',
         'Non Functional': 'Non Functional Requirement of the story'
     },
-    'description': 'Description of the story.',
+    'Acceptance Criteria': 'Acceptance Criteria of the story.',
 }
 
 def generate_response(messages: List[Dict]) -> str:
